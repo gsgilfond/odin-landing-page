@@ -1,0 +1,152 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    box-sizing: border-box;
+}
+
+ul, .header, .one, .two, .four {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    margin-top: -80px;
+    margin-bottom: -80px;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header, .one, .footer {
+    background-color: #1F2937;
+}
+
+.header, .one {
+    padding: 72px;
+}
+
+.two {
+    gap: 32px;
+    padding: 64px;
+    margin-top: -32px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.square {
+    padding: 48px;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.informationHeader, .two .subtext {
+    text-align: center;
+}
+
+.informationHeader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 16px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    padding: 64px 128px 64px 128px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.credit {
+    text-align: right;
+    font-weight: 700;
+}
+
+.header, .one, .three, .four, .footer {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.one .subtext, ul, .IMGplaceholder {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.copyright {
+    text-align: center;
+    color: #E5E7EB;
+    padding: 16px;
+}
+
+.four {
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 4px;
+}
+
+.footer {
+    margin-bottom: -10px;
+}
+
+.left, .IMGplaceholder, .logo, ul {
+    width: 100%;
+}
+
+.one {
+    gap: 12px;
+}
+
+.IMGplaceholder {
+    text-align: center;
+    background-color: #303234;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+ul {
+    list-style: none;
+    gap: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
